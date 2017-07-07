@@ -14,15 +14,14 @@ import { AppRoutingModule } from './app.routing';
 import { PlayerComponent } from './components/player/player.component';
 import { SearchComponent } from './components/search/search.component';
 
-import { HeaderComponent, LikesComponent, PlayerService, CoverService } from './shared';
+import { HeaderComponent, PlayerService, CoverService } from './shared';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerComponent,
     HeaderComponent,
-    SearchComponent,
-    LikesComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
