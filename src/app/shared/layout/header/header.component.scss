@@ -1,0 +1,14 @@
+$white: rgba(255,255,255,.87);
+
+span a {
+	text-decoration: none;
+	color: $white;
+	&:hover {
+		text-decoration: none;
+		color: $white;
+	}
+}
+
+md-input-container {
+	color: $white;
+}

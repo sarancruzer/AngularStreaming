@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
       authDomain: "angularstreaming.firebaseapp.com",
       databaseURL: "https://angularstreaming.firebaseio.com",
       projectId: "angularstreaming",
-      storageBucket: "",
+      storageBucket: "angularstreaming.appspot.com",
       messagingSenderId: "420594823747"
     });
   }
