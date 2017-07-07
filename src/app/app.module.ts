@@ -6,20 +6,20 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule, MdToolbarModule, MdIconModule } from '@angular/material';
 import 'hammerjs';
 
+import { CoverModule } from './components/cover/cover.module';
+
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 
 import { PlayerComponent } from './components/player/player.component';
-import { CoverComponent } from './components/cover/cover.component';
 
-import { HeaderComponent, PlayerService } from './shared';
+import { HeaderComponent, PlayerService, CoverService } from './shared';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerComponent,
-    CoverComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,10 +27,12 @@ import { HeaderComponent, PlayerService } from './shared';
     FormsModule, ReactiveFormsModule,
     HttpModule,
     MaterialModule, MdToolbarModule, MdIconModule,
+    CoverModule,
     AppRoutingModule
   ],
   providers: [
-    PlayerService
+    PlayerService,
+    CoverService
   ],
   bootstrap: [AppComponent]
 })
