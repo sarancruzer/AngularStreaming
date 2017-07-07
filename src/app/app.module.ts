@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 
 import { PlayerComponent } from './components/player/player.component';
+import { SearchComponent } from './components/search/search.component';
 
 import { HeaderComponent, PlayerService, CoverService } from './shared';
 
@@ -20,6 +21,7 @@ import { HeaderComponent, PlayerService, CoverService } from './shared';
     AppComponent,
     PlayerComponent,
     HeaderComponent,
+    SearchComponent,
   ],
   imports: [
     BrowserModule,

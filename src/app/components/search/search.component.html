@@ -1,0 +1,9 @@
+<md-input-container>
+    <h5><input mdInput placeholder="Search..." [mdAutocomplete]="auto" [formControl]="artistCtrl"></h5>
+</md-input-container>
+
+<md-autocomplete #auto="mdAutocomplete">
+    <md-option *ngFor="let artist of filteredArtists | async" [value]="artist">
+        {{ artist }}
+    </md-option>
+</md-autocomplete>
