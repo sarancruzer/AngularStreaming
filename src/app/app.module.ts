@@ -14,7 +14,7 @@ import { AppRoutingModule } from './app.routing';
 import { PlayerComponent } from './components/player/player.component';
 import { SearchComponent } from './components/search/search.component';
 
-import { HeaderComponent, PlayerService, CoverService } from './shared';
+import { HeaderComponent, LikesComponent, PlayerService, CoverService } from './shared';
 
 @NgModule({
   declarations: [
@@ -22,6 +22,7 @@ import { HeaderComponent, PlayerService, CoverService } from './shared';
     PlayerComponent,
     HeaderComponent,
     SearchComponent,
+    LikesComponent,
   ],
   imports: [
     BrowserModule,
