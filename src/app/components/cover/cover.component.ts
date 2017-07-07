@@ -6,8 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cover.component.scss']
 })
 export class CoverComponent implements OnInit {
-
-  constructor() { }
+  coverImage: string;
+  
+  constructor() { this.coverImage = '/assets/img/amusement.jpg'; }
 
   ngOnInit() {
   }
