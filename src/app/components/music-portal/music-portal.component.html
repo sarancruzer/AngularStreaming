@@ -1,7 +1,16 @@
-<p>
-  music-portal works!
-</p>
+<div class="wrapper">
+  <div class="cover" *ngFor="let cover of coverImages">
+    <img src={{cover.img}} />
+    
 
-<button md-icon-button routerLink="/cover">
-    <md-icon>dashboard</md-icon>
-</button>
+    <a md-raised-button routerLink={{cover.link}}>
+      <div class="cover-info">
+        <span>{{cover.title}}</span>
+      </div>
+    </a>
+  </div>
+
+  <button md-icon-button routerLink="/cover">
+      <md-icon>dashboard</md-icon>
+  </button>
+</div>

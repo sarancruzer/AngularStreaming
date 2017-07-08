@@ -16,7 +16,12 @@ artistCtrl: FormControl;
     'Ed Sheeran',
     'Swae Lee',
     'Calvin Harris',
-    'Kendrick Lamar'
+    'Kendrick Lamar',
+    'Twenty One Pilots',
+    'Childsplay',
+    'Pell',
+    'Drake',
+    'J. Cole'
   ];
 
   constructor() {

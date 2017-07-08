@@ -10,8 +10,8 @@ import { MoviePortalComponent } from './components/movie-portal/movie-portal.com
 const appRoutes: Routes = [
   { path: '', redirectTo: '/', pathMatch : 'full' },
   { path: 'cover', component: CoverComponent },
-  { path: 'music', component: MusicPortalComponent },
-  { path: 'movies', component: MoviePortalComponent },
+  { path: 'music-portal', component: MusicPortalComponent },
+  { path: 'movies-portal', component: MoviePortalComponent },
 ];
 
 @NgModule({

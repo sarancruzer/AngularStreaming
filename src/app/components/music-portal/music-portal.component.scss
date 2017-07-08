@@ -1,0 +1,26 @@
+.wrapper {
+    width: 90%;
+    min-height: 700px;
+    margin: 30px auto;
+}
+
+.cover { 
+    position: relative;
+    float: left;
+    width: 380px;
+    margin: 20px 10px;
+}
+
+.cover-info {
+    text-align: center;
+}
+
+img {
+    width: 350px;
+    height: 270px;
+    box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+md-card {
+    margin: 20px 10%;
+}
