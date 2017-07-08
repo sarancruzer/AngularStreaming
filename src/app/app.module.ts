@@ -11,17 +11,18 @@ import { CoverModule } from './components/cover/cover.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app.routing';
 
-import { PlayerComponent } from './components/player/player.component';
-import { SearchComponent } from './components/search/search.component';
+import { MusicPortalComponent } from './components/music-portal/music-portal.component';
+import { MoviePortalComponent } from './components/movie-portal/movie-portal.component';
 
-import { HeaderComponent, PlayerService, CoverService } from './shared';
+import { HeaderComponent, PlayerComponent, PlayerService, CoverService } from './shared';
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerComponent,
     HeaderComponent,
-    SearchComponent
+    MusicPortalComponent,
+    MoviePortalComponent
   ],
   imports: [
     BrowserModule,
