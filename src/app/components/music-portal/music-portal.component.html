@@ -1,16 +1,19 @@
-<div class="wrapper">
-  <div class="cover" *ngFor="let cover of coverImages">
-    <img src={{cover.img}} />
-    
+<md-card>
+  <div class="wrapper">
+    <h2>Music portal</h2>
 
-    <a md-raised-button routerLink={{cover.link}}>
-      <div class="cover-info">
-        <span>{{cover.title}}</span>
-      </div>
-    </a>
+    <div class="cover" *ngFor="let cover of coverImages">
+      <img src={{cover.img}} />
+      <a md-raised-button href="{{cover.link}}">
+        <div class="cover-info">
+          <h3>{{cover.title}}</h3>
+          <h2>{{cover.genre}}</h2>
+        </div>
+      </a>
+    </div>
+
+    <button md-icon-button routerLink="/cover">
+        <md-icon>dashboard</md-icon>
+    </button>
   </div>
-
-  <button md-icon-button routerLink="/cover">
-      <md-icon>dashboard</md-icon>
-  </button>
-</div>
+</md-card>

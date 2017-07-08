@@ -16,21 +16,37 @@ export class MusicPortalComponent implements OnInit {
     {
       img: '/assets/img/amusement.jpg',
       title: 'Random band - Random song (2017) 01',
+      genre: 'Rock',
       link: '/test'
     },
     {
       img: '/assets/img/amusement.jpg',
       title: 'Random band - Random song (2017) 02',
+      genre: 'House',
       link: '/test'
     },
     {
       img: '/assets/img/amusement.jpg',
       title: 'Random band - Random song (2017) 03',
+      genre: 'Classic',
       link: '/test'
     },
     {
       img: '/assets/img/amusement.jpg',
       title: 'Random band - Random song (2017) 04',
+      genre: 'Jazz',
+      link: '/test'
+    },
+    {
+      img: '/assets/img/amusement.jpg',
+      title: 'Random band - Random song (2017) 05',
+      genre: 'Classic',
+      link: '/test'
+    },
+    {
+      img: '/assets/img/amusement.jpg',
+      title: 'Random band - Random song (2017) 06',
+      genre: 'Jazz',
       link: '/test'
     },
   ];
