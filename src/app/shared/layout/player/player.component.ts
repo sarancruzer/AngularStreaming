@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+// import { PlayerService } from '../../services';
+
 @Component({
   selector: 'app-player',
   templateUrl: './player.component.html',
@@ -8,7 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class PlayerComponent implements OnInit {
   value = 0;
 
-  constructor() { }
+  constructor(// private playerService: PlayerService
+              ) { }
 
   ngOnInit() {
   }
