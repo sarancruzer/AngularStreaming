@@ -14,7 +14,13 @@ import { AppRoutingModule } from './app.routing';
 import { MusicPortalComponent } from './components/music-portal/music-portal.component';
 import { MoviePortalComponent } from './components/movie-portal/movie-portal.component';
 
-import { HeaderComponent, PlayerComponent, PlayerService, CoverService } from './shared';
+import { 
+  HeaderComponent, 
+  PlayerComponent, 
+  PlayerService, 
+  CoverService, 
+  TracksService, 
+  ArtistsService } from './shared';
 
 @NgModule({
   declarations: [
@@ -35,7 +41,9 @@ import { HeaderComponent, PlayerComponent, PlayerService, CoverService } from '.
   ],
   providers: [
     PlayerService,
-    CoverService
+    CoverService,
+    TracksService,
+    ArtistsService
   ],
   bootstrap: [AppComponent]
 })
