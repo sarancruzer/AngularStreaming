@@ -3,7 +3,8 @@ import { CommonModule } from '@angular/common';
 import { MaterialModule } from '@angular/material';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { SearchComponent } from '../search/search.component';
+import { Search2Component } from './search2/search2.component';
+import { SearchComponent } from './search/search.component';
 import { CoverComponent } from './cover.component';
 import { CoverInfoComponent } from './cover-info/cover-info.component';
 import { LikesComponent } from './likes/likes.component';
@@ -16,6 +17,7 @@ import { LikesComponent } from './likes/likes.component';
   ],
   declarations: [
     SearchComponent,
+    Search2Component,
     CoverComponent,
     CoverInfoComponent,
     LikesComponent

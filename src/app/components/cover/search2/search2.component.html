@@ -1,0 +1,12 @@
+<md-input-container>
+  <input mdInput [formControl]="inputField" type="text" id="keyword"  
+    placeholder="Spotify Search..." autofocus>
+</md-input-container>
+<ul>
+  <div *ngFor="let result of searchResults">
+      <li>
+        <img src="{{result.images['1']?.url}}" alt="{{result.name}}" width="50" height="50">
+        {{ result.name }}
+      </li>
+  </div>
+</ul> 

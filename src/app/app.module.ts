@@ -20,7 +20,8 @@ import {
   PlayerService, 
   CoverService, 
   TracksService, 
-  ArtistsService } from './shared';
+  ArtistsService,
+  SearchService } from './shared';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import {
     PlayerService,
     CoverService,
     TracksService,
-    ArtistsService
+    ArtistsService,
+    SearchService
   ],
   bootstrap: [AppComponent]
 })
